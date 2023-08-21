@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/Styles/button-danger.uss?fileID=7433441132597879392&amp;guid=dfaeb40aa879b774d994a0c0a6e38f8b&amp;type=3#button-danger" />
+    <ui:VisualElement style="height: 100%; width: 100%; align-items: stretch; justify-content: flex-start; position: relative; min-height: auto;">
+        <ui:Label text="Cube Editor" name="Title" style="font-size: 26px; -unity-font-style: bold;" />
+        <uie:ObjectField label="Cube Prefab" name="CubePrefabObjectField" allow-scene-objects="true" />
+        <ui:Button text="Spawn cube in scene" display-tooltip-when-elided="true" name="SpawnCubeButton" style="height: 57px; font-size: 15px;" />
+        <ui:Button text="Delete last spawned cube" display-tooltip-when-elided="true" name="DeleteCubeButton" style="height: 57px; font-size: 15px;" />
+        <ui:Slider picking-mode="Ignore" label="Cube Redness" value="0.42" high-value="1" name="CubeRednessSlider" />
+        <ui:Toggle label="Hide Cube" name="HideCubeToggle" />
+        <ui:Button text="Delete all cubes in scene" display-tooltip-when-elided="true" name="DeleteAllCubesButton" class="button-danger" style="height: 28px; bottom: 0; justify-content: flex-end; top: auto; position: relative; align-items: stretch; width: 98.5%; margin-top: 1px; margin-bottom: 1px; padding-top: 1px; padding-bottom: 1px; padding-right: 6px;" />
+    </ui:VisualElement>
+</ui:UXML>

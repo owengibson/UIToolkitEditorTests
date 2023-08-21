@@ -1,0 +1,10 @@
+{
+  "name": "com.oezyowen.tools",
+  "version": "0.1.0",
+  "displayName": "Tools by oezyowen",
+  "description": "A bunch of useful editor and runtime tools and methods for use in your Unity projects.",
+  "author": {
+    "name": "Owen Gibson",
+    "email": "oezyowen@gmail.com"
+  }
+}

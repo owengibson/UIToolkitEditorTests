@@ -1,0 +1,7 @@
+.button-danger {
+    background-color: rgba(99, 75, 75, 255);
+}
+
+.button-danger:active {
+    background-color: rgba(99, 39, 39, 255);
+}
